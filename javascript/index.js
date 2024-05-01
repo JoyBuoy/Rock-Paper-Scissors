@@ -6,4 +6,13 @@ function getcomputerchoice() {
     return choice[count];
 }
 
+function gethumanchoice(){
+    let user_choice = prompt("Please enter your choice");
+    
+    user_choice = user_choice.toLowerCase();
+    
+    return user_choice;
+    }
+    
+
 
