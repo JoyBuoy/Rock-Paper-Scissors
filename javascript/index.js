@@ -43,6 +43,21 @@ function playround(humanChoice, computerChoice) {
     }
 }
 
+
+function playGame() {
+
+    for (let i = 1;i<=5; i++) {
+    const humanChoice = gethumanchoice();
+    const computerChoice = getcomputerchoice();
+    
+    playround(humanChoice, computerChoice);
+    }
+    console.log("User Score: " + humanscore + " and Computer Score: " + computerscore);
+    }
+    
+    
+playGame();
+
     
 
 
